@@ -31,6 +31,7 @@ class Main:
         D = [1, 3, 7, 8, 2, 5]
         print("Maximum value in the array:", self.find_maximum.find_max(D, 0, len(D) - 1))
 
+
 if __name__ == "__main__":
     main = Main()
     main.execute()
