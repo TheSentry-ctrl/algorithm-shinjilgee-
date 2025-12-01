@@ -27,5 +27,4 @@ class MergeSort:
                 array[k] = right_half[j]
                 j += 1
                 k += 1
-
         return array
