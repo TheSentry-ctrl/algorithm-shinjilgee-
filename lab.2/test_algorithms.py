@@ -5,6 +5,7 @@ from binary_search import BinarySearch
 from find_maximum import FindMaximum
 from test_data_helper import load_test_data
 
+
 class TestAlgorithms(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
