@@ -1,6 +1,7 @@
 def load_test_data(file_path):
     def parse_data(data_str):
-    
+
+        
         return [int(x) for x in data_str.strip('[]').split(',') if x.strip()]
 
     test_data = {}
@@ -42,4 +43,5 @@ def load_test_data(file_path):
                     'array': parse_data(array_data),
                     'max_value': int(max_value)
                 }
+
     return test_data
